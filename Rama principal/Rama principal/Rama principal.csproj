@@ -71,6 +71,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Distancia.resx">
+      <DependentUpon>Distancia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dolares.resx">
+      <DependentUpon>Dolares.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

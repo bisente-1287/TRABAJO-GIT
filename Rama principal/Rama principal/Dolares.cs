@@ -28,5 +28,14 @@ namespace Rama_principal
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			double Pesos;
+			double conversion;
+			Pesos=Convert.ToDouble(txtCantidad.Text);
+			conversion= Pesos * 0.054;
+			MessageBox.Show("La cantidad de dolares es: "+conversion);
+		}
 	}
 }

@@ -45,7 +45,7 @@ namespace Rama_principal
 				
 				
 			}
-			if(txtContraseña.Text != Contraseña || txtUsuario.Text != Usuario )
+			if(txtContraseña.Text != Contraseña ||  txtUsuario.Text != Usuario )
 			{
 				MessageBox.Show("EL usuario o contraseña es incorrecto");
 			}
