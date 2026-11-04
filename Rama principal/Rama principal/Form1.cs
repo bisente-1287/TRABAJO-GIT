@@ -28,5 +28,31 @@ namespace Rama_principal
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void BtnSalirClick(object sender, EventArgs e)
+		{
+			Application.Exit();
+		}
+		
+		void BtnDistanciaClick(object sender, EventArgs e)
+		{
+			Distancia f = new Distancia();
+			f.Show();
+			this.Hide();
+		}
+		
+		void BtnDoraresClick(object sender, EventArgs e)
+		{
+			Dolares D=new Dolares();
+			D.Show();
+			this.Hide();
+		}
+		
+		void BtnCordenadaClick(object sender, EventArgs e)
+		{
+			Cordenada c = new Cordenada();
+			c.Show();
+			this.Hide();
+		}
 	}
 }
