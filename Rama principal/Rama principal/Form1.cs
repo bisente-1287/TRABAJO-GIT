@@ -36,7 +36,7 @@ namespace Rama_principal
 		
 		void BtnDistanciaClick(object sender, EventArgs e)
 		{
-			Distancia f = new Distancia();
+			txtDistancia3 f = new txtDistancia3();
 			f.Show();
 			this.Hide();
 		}
