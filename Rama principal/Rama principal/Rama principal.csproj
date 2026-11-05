@@ -71,6 +71,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Cordenada.resx">
+      <DependentUpon>Cordenada.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Distancia.resx">
       <DependentUpon>Distancia.cs</DependentUpon>
     </EmbeddedResource>
